@@ -1,0 +1,4 @@
+{
+  "install": "npm install && cd backend && npm install && cd ../frontend && npm install",
+  "startCommand": "npm run dev"
+}
