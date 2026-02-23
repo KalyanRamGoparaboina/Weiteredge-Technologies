@@ -3,8 +3,13 @@ const { open } = require('sqlite');
 const path = require('path');
 
 async function initDb() {
+    // Vercel filesystem is read-only, we must use /tmp for SQLite
+    const dbPath = process.env.VERCEL
+        ? path.join('/tmp', 'database.sqlite')
+        : path.join(__dirname, 'database.sqlite');
+
     const db = await open({
-        filename: path.join(__dirname, 'database.sqlite'),
+        filename: dbPath,
         driver: sqlite3.Database
     });
 

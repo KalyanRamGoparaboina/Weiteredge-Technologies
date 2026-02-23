@@ -172,7 +172,12 @@ app.delete('/api/sessions/:sessionId', async (req, res) => {
     }
 });
 
-// Start Server
-app.listen(PORT, () => {
-    console.log(`>>> Server is alive at http://localhost:${PORT}`);
-});
+// Start Server (only if not running on Vercel)
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+    app.listen(PORT, () => {
+        console.log(`>>> Server is alive at http://localhost:${PORT}`);
+    });
+}
+
+// Export for Vercel
+module.exports = app;
