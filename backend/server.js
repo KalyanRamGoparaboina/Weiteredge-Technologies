@@ -23,6 +23,7 @@ const PORT = process.env.PORT || 5000;
 // --- MIDDLEWARE ---
 app.use(cors()); // Allow frontend to talk to backend
 app.use(express.json()); // Parse JSON bodies
+app.use(express.static(path.join(__dirname, 'public'))); // Serve the frontend
 
 // --- RATE LIMITING (Safety measure) ---
 const limiter = rateLimit({
