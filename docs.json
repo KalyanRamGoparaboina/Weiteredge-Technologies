@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Resetting Your Password",
+        "content": "To reset your password, visit the login page and click on 'Forgot Password'. Follow the link sent to your email to set a new password. You can also change it within the app under **Settings > Security > Change Password**."
+    },
+    {
+        "title": "Refund Policy Overview",
+        "content": "We offer a full refund if requested within **7 days** of purchase. To request a refund, contact our support team with your order ID. Note that digital goods are non-refundable once the license key has been activated."
+    },
+    {
+        "title": "Tracking Your Order",
+        "content": "You can track your order in real-time by visiting the **'Orders'** section of your dashboard. Once an item is shipped, a tracking number will be provided via email."
+    },
+    {
+        "title": "Subscription Plans",
+        "content": "We offer three plans: \n1. **Basic**: $10/mo for standard features.\n2. **Pro**: $25/mo for advanced analytics and priority support.\n3. **Enterprise**: Contact sales for custom pricing and dedicated account management."
+    },
+    {
+        "title": "Account Cancellation",
+        "content": "Users can cancel their account at any time. Go to **Settings > Account > Manage Subscription** and select 'Cancel'. Your data will be retained for 30 days before permanent deletion."
+    },
+    {
+        "title": "Data Privacy & GDPR",
+        "content": "We are fully GDPR compliant. You can request a copy of your data or ask for data deletion through our **Privacy Center** located in the footer of our website."
+    },
+    {
+        "title": "Contacting Support",
+        "content": "Our support team is available 24/7. Reach us via:\n- **Email**: support@weitredge.ai\n- **Live Chat**: Click the bubble in the bottom right corner.\n- **Phone**: +1 (800) 123-4567 (9 AM - 6 PM EST)"
+    },
+    {
+        "title": "Feature Requests",
+        "content": "We value user feedback! Submit your feature requests on our public roadmap at `roadmap.weitredge.ai`. Other users can upvote your suggestions."
+    }
+]
