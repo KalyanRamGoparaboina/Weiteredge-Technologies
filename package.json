@@ -2,7 +2,7 @@
   "name": "ai-support-assistant-root",
   "version": "1.0.0",
   "scripts": {
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
     "start": "npm run dev",
     "start-backend": "cd backend && node server.js",
     "start-frontend": "cd frontend && npm run dev",
