@@ -1,14 +1,20 @@
 {
-  "name": "ai-support-assistant-root",
+  "name": "ai-support-assistant",
   "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
   "scripts": {
-    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
-    "start": "npm run dev",
-    "start-backend": "cd backend && node server.js",
-    "start-frontend": "cd frontend && npm run dev",
-    "dev": "npx concurrently \"npm run start-backend\" \"npm run start-frontend\""
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^13.0.0"
   }
 }

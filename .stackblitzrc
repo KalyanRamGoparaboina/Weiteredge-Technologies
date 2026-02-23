@@ -1,4 +1,4 @@
 {
-  "install": "cd backend && npm install",
-  "startCommand": "cd backend && node server.js"
+  "install": "npm install",
+  "startCommand": "npm start"
 }
